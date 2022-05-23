@@ -1,0 +1,23 @@
+.task {
+  /* Sample  */
+  margin: auto;
+
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: left;
+}
+
+.task-text{
+  margin: auto;
+  
+
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Checkbox{
+  text-decoration: line-through;
+}
+
