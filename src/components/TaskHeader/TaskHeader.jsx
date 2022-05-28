@@ -10,7 +10,7 @@ const TaskHeader = ({ tasks }) => {
   return (
     <div data-cy="task-header" className={styles.taskHeader}>
        <h1>Todo List</h1>
-       <div>You have <b data-cy="header-remaining-task">{unCompletedTask}</b> of{" "}
+       <div className={styles.small}>You have <b data-cy="header-remaining-task">{unCompletedTask}</b> of{" "}
       <b data-cy="header-total-task">{tasks.length}</b> tasks remaining.
     </div>
     </div>

@@ -1,4 +1,4 @@
-.taskInfos{
+.taskText{
   /* border: 1px solid red; */
   display: inline-block;
   width: 100px;
@@ -7,7 +7,7 @@ li{
   list-style-type: none;
 }
 
-.taskCheckbox{
+.Checkbox{
   /* display: inline-block; */
   float: left;
   clear: right;
